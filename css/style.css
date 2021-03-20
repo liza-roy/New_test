@@ -1,0 +1,481 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    font-family: "Poppins";
+    font-size: 22px;
+}
+.navbar-default {
+    background: none;
+    border: none;
+    padding: 12px 0px 12px 0px;
+}
+.navbar-default .navbar-nav > li > a {
+    font-size: 14px;
+    font-weight: 500;
+    color: #151442;
+}
+
+.header {
+    z-index: 10000;
+    transition: all 0.5s ease-in-out;
+}
+
+.header.active {
+    background: #e2e4e4;
+    -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+}
+
+.navbar-nav span {
+    background: #151442;
+    border-radius: 50%;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    color: #fff;
+    text-align: center;
+    font-size: 9px;
+    padding-top: 2px;
+    top: 38%;
+    right: 50%;
+}
+
+.menu-img {
+    width: 15px;
+    margin-left: 30px;
+}
+
+.no-padding {
+    padding: 0px !important;
+}
+
+.banner-wrapper {
+    position: relative;
+}
+
+.image-box {
+    padding-top: 100px;
+    position: relative;
+}
+
+.image-box img {
+    width: 100%;
+    position: absolute;
+    right: 15%;
+}
+
+.banner-left {
+    background: #102421;
+    min-height: 700px;
+    height: 100vh;
+}
+
+.banner-text {
+    margin: 0px auto;
+    width: 60%;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+}
+
+.banner-text span {
+    font-size: 14px;
+    font-weight: 500;
+    color: #d2d2d2;
+}
+.banner-text h2 {
+    font-size: 44px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.banner-text p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #d2d2d2;
+    margin-top: 30px;
+}
+
+.banner-text button {
+    background: #c7e1bf;
+    border-radius: 48px;
+    color: #102522;
+    font-size: 14px;
+    font-weight: normal;
+    border: none;
+    padding: 15px 25px;
+    margin: 40px 25px 0px 0px;
+}
+
+.products-list {
+    padding: 80px 0px;
+    position: relative;
+    text-align: center;
+}
+
+.products-list h3 {
+    color: #151442;
+    font-weight: 500;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.products-list button {
+    background: #ffffff;
+    border-radius: 31px;
+    color: #151442;
+    font-size: 12px;
+    font-weight: normal;
+    padding: 12px 22px;
+    border: 1px solid #102421;
+    position: absolute;
+    top: 14%;
+    right: 12%;
+}
+
+.products-list h4 {
+    color: #151442;
+    font-weight: 500;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.products-list span {
+    color: #8f9095;
+    font-weight: normal;
+    font-size: 12px;
+    margin-bottom: 15px;
+    display: block;
+}
+
+.products-list p {
+    color: #8f9095;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.products-list img {
+    width: 100%;
+}
+
+.testimonial {
+    background-image: url("../images/img6.png");
+    background-size: cover;
+    padding: 80px 0px;
+    margin-top: 40px;
+    min-height: 600px;
+}
+
+.testimonial-text {
+    margin: 80px auto;
+}
+
+.testimonial h4 {
+    color: #fff;
+    font-size: 44px;
+    font-weight: 500;
+    margin-bottom: 50px;
+    letter-spacing: 2px;
+}
+
+.testimonial a {
+    color: #fff;
+    font-size: 12px;
+    font-weight: normal;
+    text-decoration: underline;
+}
+
+.testimonial-right {
+    background: #fff3f3;
+    padding: 50px;
+    margin: 35px auto;
+    position: relative;
+}
+
+.testimonial-right p {
+    font-size: 23px;
+    line-height: 40px;
+    width: 80%;
+    margin: 30px auto;
+}
+
+.test-img1 {
+    position: absolute;
+    left: 13%;
+    width: 25px;
+}
+
+.test-img2 {
+    position: absolute;
+    position: absolute;
+    right: 15%;
+    width: 25px;
+    bottom: 32%;
+}
+
+.testimonial-right h5 {
+    font-size: 14px;
+    font-weight: 500;
+    color: #454545;
+}
+
+.testimonial-right span {
+    font-size: 12px;
+    font-weight: 500;
+    display: block;
+    color: #454545;
+}
+
+.vitamins {
+    padding: 80px 0px;
+    position: relative;
+    text-align: center;
+}
+
+.vitamins button {
+    background: #102421;
+    border-radius: 31px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: normal;
+    padding: 12px 22px;
+    border: 1px solid #102421;
+    position: absolute;
+    top: 13%;
+    right: 15%;
+}
+
+.vitamins button:focus {
+    outline: none;
+}
+
+.vitamins h3 {
+    color: #151442;
+    font-weight: 500;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.vitamins h4 {
+    color: #151442;
+    font-weight: 500;
+    font-size: 22px;
+    margin-bottom: 15px;
+    margin-top: 30px;
+}
+
+.vitamins span {
+    color: #8f9095;
+    font-weight: normal;
+    font-size: 12px;
+    margin-bottom: 15px;
+    display: block;
+}
+
+.vitamins p {
+    color: #8f9095;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.owl-carousel .owl-item {
+    width: 280px !important;
+    margin-right: 40px;
+}
+
+.owl-carousel:hover {
+    cursor: grabbing;
+}
+
+.owl-carousel .owl-item img {
+    max-height: 330px;
+    object-fit: cover;
+}
+
+.benefits {
+    padding: 80px 0px;
+    position: relative;
+    text-align: center;
+}
+
+.benefits h3 {
+    color: #151442;
+    font-weight: 500;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.benefits img {
+    width: 40px;
+    margin-bottom: 30px;
+}
+
+.benefits p {
+    font-size: 14px;
+}
+
+.footer {
+    background: #0f2421;
+    padding: 80px 0px;
+}
+
+.footer h3 {
+    color: #fff;
+    font-size: 54px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.copyright {
+    color: #fff;
+    font-size: 12px;
+}
+
+.footer p {
+    color: #fff;
+    font-size: 14px;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+.footer ul {
+    padding-left: 0px;
+}
+
+.footer li {
+    padding-left: 0px;
+    list-style: none;
+    color: #fff;
+    font-size: 14px;
+    line-height: 32px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.address {
+    color: #fff;
+    font-size: 14px;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar-default .navbar-collapse,
+    .navbar-default .navbar-form {
+        background: #102421;
+    }
+
+    .navbar-default .navbar-nav > li > a {
+        color: #ffffff;
+    }
+
+    .navbar-nav span {
+        right: 78%;
+        background: #ffffff;
+        color: #000;
+    }
+    .navbar-default {
+        background: #102421;
+    }
+
+    .banner-left {
+        height: auto;
+    }
+
+    .banner-text {
+        top: 15%;
+    }
+
+    .image-box img {
+        position: initial;
+    }
+
+    .image-box {
+        padding-top: 20px;
+    }
+
+    .products-list h3,
+    .vitamins h3,
+    .benefits h3 {
+        font-size: 32px;
+    }
+
+    .testimonial-text {
+        margin: 0px auto;
+    }
+
+    .testimonial h4 {
+        font-size: 34px;
+    }
+
+    .test-img2 {
+        bottom: 25%;
+    }
+    .owl-carousel .owl-item {
+        margin-right: 10px;
+        margin-left: 10px;
+        width: 100px !important;
+    }
+
+    .benefits {
+        padding: 0px;
+        margin-bottom: 40px;
+    }
+
+    .benefits img {
+        margin-top: 30px;
+    }
+
+    .footer p {
+        margin-bottom: 10px;
+        margin-top: 30px;
+    }
+
+    .products-list h3,
+    .vitamins h3,
+    .benefits h3 {
+        font-size: 32px;
+    }
+    .benefits h3 {
+        margin-bottom: 15px;
+    }
+
+    .products-list button {
+        top: 6%;
+        right: 30%;
+    }
+
+    .products-list h3,
+    .vitamins h3 {
+        margin-bottom: 85px;
+    }
+
+    .vitamins {
+        padding: 25px 0px;
+    }
+
+    .vitamins button {
+        top: 17%;
+        right: 30%;
+    }
+
+    .banner-text {
+        width: 80%;
+        top: 30%;
+        left: 10%;
+    }
+
+    .banner-text button {
+        margin: 20px 25px 0px 0px;
+    }
+
+    .header.active {
+        background: #102421;
+    }
+}
